@@ -1,0 +1,141 @@
+/*
+Theme Name: My Theme
+Author: Maribel Leyva Ramirez
+Version: 1.0
+*/
+
+/*
+[0]GENERAL
+[1]NAVIGATION
+[2]MAIN CONTENT
+[3]ANIMATION
+[4]MEDIA QUERY
+*/
+
+
+/*[0]GENERAL*/
+body{
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Prata', serif;
+}
+.bg-tan{
+	background-color: #BFBBB0;
+}
+.bg-plum{
+	background-color: #430C36;
+}
+
+a{
+	font-size: 12px;
+	color: #000;
+}
+a:hover{
+	color:silver;
+}
+h1, h4{
+	font-family: 'Rochester', cursive;
+	text-align: center;
+}
+/*[1]NAVIGATION*/
+#nav{
+	height: 34px;
+	padding: 0;
+	margin:0;
+	width:100%;
+}
+#home{
+	display: none;
+}
+/*[2] MAIN CONTENT*/
+/*ceremony*/
+section{
+	color: #fff;
+}
+blockquote{
+	padding:1%;
+	background-color: silver;
+}
+
+#content p{
+	text-align: left;
+}
+
+#meet{
+	display: none;
+}
+.bg-pic{
+	position:relative;
+	top:34px;
+	overflow:hidden;
+}
+.announcement{
+	padding: 5%;
+	position: absolute;
+	top:200px;
+	height: 300px;
+}
+.party-portrait{
+	border-radius: 50%;
+}
+.photo-content{
+	height:300px;
+}
+/*[3]ANIMATION*/
+.fadeIn{
+	animation-duration: 4s;
+}
+/*[4]MEDIA QUERIES*/
+@media only screen and (max-width: 600px){
+	h1{
+		font-size: 28px;
+	}
+	.announcement{
+		padding: 1%;
+	}
+}
+
+@media only screen and (max-width: 505px){
+	h1{
+		font-size: 20px;
+	}
+	.announcement{
+		padding: 0;
+		top:100px;
+	}
+}
+@media only screen and (max-width: 475px){
+	#meetlink{
+		display: none;
+	}
+	#photolink{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 405px){
+	body{
+		font-size: 14px;
+	}
+	.announcement{
+		padding-top: 20px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	#demo{
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 345px){
+	.announcement{
+		top:50px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	#content{
+		;
+	}
+}
+	
